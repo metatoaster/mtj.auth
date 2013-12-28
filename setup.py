@@ -29,6 +29,8 @@ setup(name='mtj.auth',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'mtj.flask.acl',
+          'mtj.ppmx',
       ],
       entry_points="""
       # -*- Entry points: -*-
